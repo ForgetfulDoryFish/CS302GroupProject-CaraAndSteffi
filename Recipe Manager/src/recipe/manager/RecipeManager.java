@@ -6,7 +6,7 @@ package recipe.manager;
 
 /**
  *
- * @author Steffi
+ * @author Steffi & Cara
  */
 public class RecipeManager {
 

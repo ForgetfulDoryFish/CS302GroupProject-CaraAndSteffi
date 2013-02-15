@@ -1,0 +1,76 @@
+Thu Feb 14 16:16:26 PST 2013 : Apache Derby Network Server - 10.8.1.2 - (1095077) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Thu Feb 14 16:16:27 PST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-013c-db35-8e78-00006cc0f065 
+on database directory D:\GitHub Repositories\CS302 Group Project\CS302GroupProject-CaraAndSteffi\RecipeManager  with class loader sun.misc.Launcher$AppClassLoader@11b86e7 
+Loaded from file:/C:/Program%20Files%20(x86)/glassfish-3.1.2.2/javadb/lib/derby.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_20-b02
+user.dir=C:\Program Files (x86)\glassfish-3.1.2.2\javadb
+derby.system.home=D:\GitHub Repositories\CS302 Group Project\CS302GroupProject-CaraAndSteffi
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Feb 14 16:16:38 PST 2013:
+Shutting down instance a816c00e-013c-db35-8e78-00006cc0f065 on database directory D:\GitHub Repositories\CS302 Group Project\CS302GroupProject-CaraAndSteffi\RecipeManager with class loader sun.misc.Launcher$AppClassLoader@11b86e7 
+Thu Feb 14 16:16:38 PST 2013 Thread[DRDAConnThread_3,5,main] (DATABASE = RecipeManager), (DRDAID = {2}), Database 'RecipeManager' shutdown.
+----------------------------------------------------------------
+Thu Feb 14 16:17:34 PST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance 6c44409f-013c-db35-8e78-00006cc0f065 
+on database directory D:\GitHub Repositories\CS302 Group Project\CS302GroupProject-CaraAndSteffi\RecipeManager  with class loader sun.misc.Launcher$AppClassLoader@11b86e7 
+Loaded from file:/C:/Program%20Files%20(x86)/glassfish-3.1.2.2/javadb/lib/derby.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_20-b02
+user.dir=C:\Program Files (x86)\glassfish-3.1.2.2\javadb
+derby.system.home=D:\GitHub Repositories\CS302 Group Project\CS302GroupProject-CaraAndSteffi
+Database Class Loader started - derby.database.classpath=''
+Thu Feb 14 17:03:27 PST 2013 Thread[DRDAConnThread_4,5,main] Cleanup action starting
+java.sql.SQLException: Database 'sample' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at org.apache.derby.impl.drda.Database.makeConnection(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.getConnFromDatabaseName(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.verifyUserIdPassword(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseSECCHK(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseDRDAConnection(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.processCommands(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Database 'sample' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 19 more
+============= begin nested exception, level (1) ===========
+java.sql.SQLException: Database 'sample' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at org.apache.derby.impl.drda.Database.makeConnection(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.getConnFromDatabaseName(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.verifyUserIdPassword(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseSECCHK(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseDRDAConnection(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.processCommands(Unknown Source)
+	at org.apache.derby.impl.drda.DRDAConnThread.run(Unknown Source)
+============= end nested exception, level (1) ===========
+Cleanup action completed
+Thu Feb 14 17:03:27 PST 2013 Thread[DRDAConnThread_4,5,main] (DATABASE = sample), (DRDAID = {4}), Database 'sample' not found.

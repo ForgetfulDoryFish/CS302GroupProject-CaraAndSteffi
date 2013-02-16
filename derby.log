@@ -1,11 +1,17 @@
-Fri Feb 15 19:20:00 PST 2013 : Apache Derby Network Server - 10.8.1.2 - (1095077) started and ready to accept connections on port 1527
+Fri Feb 15 20:15:20 PST 2013 : Apache Derby Network Server - 10.8.1.2 - (1095077) started and ready to accept connections on port 1527
 ----------------------------------------------------------------
-Fri Feb 15 19:20:01 PST 2013:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-013c-e103-fb29-00006cc0f065 
-on database directory D:\GitHub Repositories\CS302 Group Project\CS302GroupProject-CaraAndSteffi\RecipeManager  with class loader sun.misc.Launcher$AppClassLoader@11b86e7 
-Loaded from file:/C:/Program%20Files%20(x86)/glassfish-3.1.2.2/javadb/lib/derby.jar
-java.vendor=Sun Microsystems Inc.
-java.runtime.version=1.6.0_20-b02
-user.dir=C:\Program Files (x86)\glassfish-3.1.2.2\javadb
-derby.system.home=D:\GitHub Repositories\CS302 Group Project\CS302GroupProject-CaraAndSteffi
+Fri Feb 15 20:15:21 PST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-013c-e136-a651-ffffdf554441 
+on database directory /Users/caralandicho/CS302GroupProject-CaraAndSteffi/RecipeManager  with class loader sun.misc.Launcher$AppClassLoader@1f3e8d89 
+Loaded from file:/Applications/NetBeans/glassfish-3.1.2.2/javadb/lib/derby.jar
+java.vendor=Apple Inc.
+java.runtime.version=1.6.0_39-b04-442-10M4008
+user.dir=/Applications/NetBeans/glassfish-3.1.2.2/javadb
+derby.system.home=/Users/caralandicho/CS302GroupProject-CaraAndSteffi/
 Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Feb 15 20:18:15 PST 2013: Shutting down Derby engine
+----------------------------------------------------------------
+Fri Feb 15 20:18:15 PST 2013:
+Shutting down instance a816c00e-013c-e136-a651-ffffdf554441 on database directory /Users/caralandicho/CS302GroupProject-CaraAndSteffi/RecipeManager with class loader sun.misc.Launcher$AppClassLoader@1f3e8d89 
+----------------------------------------------------------------
